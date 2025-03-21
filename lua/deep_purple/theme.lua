@@ -104,6 +104,7 @@ function M.setup()
 	hl(0, "IlluminatedWordWrite", { bg = c.highlight_alt_bg,  })
 
 	-- lsp
+	hl(0, "LspCodeLens", { fg = c.gray,  })
 	hl(0, "LspDiagnosticsDefaultError", { fg = c.error_red,  })
 	hl(0, "LspDiagnosticsDefaultHint", { fg = c.hint_blue,  })
 	hl(0, "LspDiagnosticsDefaultInformation", { fg = c.info_yellow,  })
