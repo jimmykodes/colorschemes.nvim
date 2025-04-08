@@ -6,8 +6,8 @@ local colors = {
 	command = '#D08770',
 
 	fg      = '#E5E9F0',
-	bg      = '#2E3440',
-	bg_alt  = '#242a36',
+	bg      = '#222834',
+	bg_alt  = '#181e2a',
 }
 
 return {
