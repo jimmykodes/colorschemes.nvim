@@ -1,7 +1,7 @@
 local colors = {
 	normal  = '#90b0ff',
 	insert  = '#49a078',
-	visual  = '#49416d',
+	visual  = '#bf79bf',
 	replace = '#9d5060',
 	command = '#d99058',
 
