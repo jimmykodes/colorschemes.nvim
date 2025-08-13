@@ -1,6 +1,6 @@
 local M = {}
 
-local c = require("system76.colors")
+local c = require("black_hole.colors")
 local hl = vim.api.nvim_set_hl
 
 function M.setup()

@@ -15,9 +15,10 @@ function M.setup()
 	hl(0, "CursorLine", { bg = c.cursor_line,  })
 
 	-- diff
-	hl(0, "DiffAdd", { fg = c.bg_light, bg = c.sign_add,  })
-	hl(0, "DiffChange", { fg = c.bg_light, bg = c.sign_change, underline = true,  })
-	hl(0, "DiffDelete", { fg = c.bg_light, bg = c.sign_delete,  })
+	hl(0, "DiffAdd", { bg = c.sign_add_bg,  })
+	hl(0, "DiffChange", { bg = c.sign_change_bg,  })
+	hl(0, "DiffDelete", { bg = c.sign_delete_bg,  })
+	hl(0, "DiffText", { bg = c.sign_diff_bg,  })
 
 	-- git
 	hl(0, "DiffViewNormal", { fg = c.gray, bg = c.bg_light,  })
@@ -143,7 +144,7 @@ function M.setup()
 	hl(0, "NvimTreeFolderIcon", { fg = c.blue,  })
 	hl(0, "NvimTreeFolderName", { fg = c.blue,  })
 	hl(0, "NvimTreeGitDeleted", { fg = c.sign_delete,  })
-	hl(0, "NvimTreeGitDirty", { fg = c.sign_add,  })
+	hl(0, "NvimTreeGitDirty", { fg = c.sign_diff,  })
 	hl(0, "NvimTreeGitMerge", { fg = c.sign_change,  })
 	hl(0, "NvimTreeGitNew", { fg = c.sign_add,  })
 	hl(0, "NvimTreeGitRenamed", { fg = c.sign_change,  })
