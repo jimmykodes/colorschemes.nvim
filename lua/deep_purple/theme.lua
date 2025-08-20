@@ -6,6 +6,10 @@ local hl = vim.api.nvim_set_hl
 function M.setup()
 	hl(0, "Normal", { fg = c.fg, bg = c.bg,  })
 	-- alpha
+	hl(0, "DashboardButtonShortcut", { fg = c.magenta,  })
+	hl(0, "DashboardButtonShortcutAlt", { fg = c.purple,  })
+	hl(0, "DashboardButtonText", { fg = c.light_gray,  })
+	hl(0, "DashboardButtonTextAlt", { fg = c.gray,  })
 	hl(0, "DashboardCenter", { fg = c.purple,  })
 	hl(0, "DashboardFooter", { fg = c.cyan,  })
 	hl(0, "DashboardHeader", { fg = c.light_blue,  })
