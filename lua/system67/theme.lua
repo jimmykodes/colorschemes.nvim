@@ -23,28 +23,12 @@ function M.setup()
 	hl(0, "DiffChange", { bg = c.sign_change_bg,  })
 	hl(0, "DiffDelete", { bg = c.sign_delete_bg,  })
 	hl(0, "DiffText", { bg = c.sign_diff_bg,  })
-
-	-- git
-	hl(0, "DiffViewNormal", { fg = c.gray, bg = c.bg_light,  })
-	hl(0, "DiffviewFilePanelDeletion", { fg = c.sign_delete,  })
-	hl(0, "DiffviewFilePanelInsertion", { fg = c.sign_add,  })
-	hl(0, "DiffviewStatusAdded", { fg = c.sign_add,  })
-	hl(0, "DiffviewStatusDeleted", { fg = c.sign_delete,  })
-	hl(0, "DiffviewStatusModified", { fg = c.sign_change,  })
-	hl(0, "DiffviewStatusRenamed", { fg = c.sign_change,  })
-	hl(0, "DiffviewVertSplit", { bg = c.bg,  })
 	hl(0, "GitSignsAdd", { fg = c.sign_add,  })
 	hl(0, "GitSignsChange", { fg = c.sign_change,  })
 	hl(0, "GitSignsDelete", { fg = c.sign_delete,  })
-	hl(0, "SignAdd", { fg = c.sign_add,  })
-	hl(0, "SignChange", { fg = c.sign_change,  })
-	hl(0, "SignDelete", { fg = c.sign_delete,  })
-	hl(0, "diffAdded", { fg = c.sign_add,  })
-	hl(0, "diffFile", { fg = c.comment,  })
-	hl(0, "diffFileId", { fg = c.blue,  })
-	hl(0, "diffNewFile", { fg = c.green,  })
-	hl(0, "diffOldFile", { fg = c.red,  })
-	hl(0, "diffRemoved", { fg = c.sign_delete,  })
+	hl(0, "GitSignsStagedAdd", { fg = c.sign_add_bg,  })
+	hl(0, "GitSignsStagedChange", { fg = c.sign_change_bg,  })
+	hl(0, "GitSignsStagedDelete", { fg = c.sign_delete_bg,  })
 
 	-- highlights
 	hl(0, "Bold", { bold = true,  })
@@ -137,11 +121,6 @@ function M.setup()
 	hl(0, "LspInlayHint", { fg = c.gray,  })
 	hl(0, "QuickScopePrimary", { fg = c.magenta, underline = true,  })
 	hl(0, "QuickScopeSecondary", { fg = c.hint, underline = true,  })
-
-	-- lualine
-	hl(0, "LuaLineDiffAdd", { fg = c.sign_add,  })
-	hl(0, "LuaLineDiffChange", { fg = c.sign_change,  })
-	hl(0, "LuaLineDiffDelete", { fg = c.sign_delete,  })
 
 	-- nvim_tree
 	hl(0, "NvimTreeExecFile", { fg = c.green,  })
