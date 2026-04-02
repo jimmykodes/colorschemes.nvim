@@ -26,9 +26,9 @@ function M.setup()
 	hl(0, "GitSignsAdd", { fg = c.sign_add,  })
 	hl(0, "GitSignsChange", { fg = c.sign_change,  })
 	hl(0, "GitSignsDelete", { fg = c.sign_delete,  })
-	hl(0, "GitSignsStagedAdd", { fg = c.sign_add_bg,  })
-	hl(0, "GitSignsStagedChange", { fg = c.sign_change_bg,  })
-	hl(0, "GitSignsStagedDelete", { fg = c.sign_delete_bg,  })
+	hl(0, "GitSignsStagedAdd", { fg = c.sign_staged_add,  })
+	hl(0, "GitSignsStagedChange", { fg = c.sign_staged_change,  })
+	hl(0, "GitSignsStagedDelete", { fg = c.sign_staged_delete,  })
 
 	-- highlights
 	hl(0, "Bold", { bold = true,  })
